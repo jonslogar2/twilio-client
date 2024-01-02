@@ -1,10 +1,10 @@
-import style from "./HomePage.module.css";
+import style from './Homepage.module.css';
 
 const Homepage = () => {
   return (
     <section>
       <div className={style.wrapper}>
-        <h1 style={{ textAlign: "center", fontSize: "30px" }}>Homepage</h1>
+        <h1 style={{ textAlign: 'center', fontSize: '30px' }}>Homepage</h1>
       </div>
     </section>
   );

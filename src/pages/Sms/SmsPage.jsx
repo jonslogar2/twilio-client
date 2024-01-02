@@ -1,7 +1,6 @@
+import style from './SmsPage.module.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-
-import style from './SmsPage.module.css';
 
 const SmsPage = () => {
   const [customerName, setCustomerName] = useState('');
