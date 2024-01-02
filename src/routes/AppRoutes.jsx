@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Homepage from '../pages/Homepage/Homepage';
 import AboutUs from '../pages/AboutUsPage/AboutUs';
 import MainLayout from '../layout/MainLayout/MainLayout';
 import ViberPage from '../pages/Viber/ViberPage';
-import CallPage from '../pages/CallPage/CallPage';
+import CallPage from '../pages/Call/CallPage';
 import SmsPage from '../pages/Sms/SmsPage';
+import Homepage from '../pages/Home/Homepage';
 
 const AppRoutes = () => {
   return (
