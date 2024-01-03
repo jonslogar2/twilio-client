@@ -41,7 +41,8 @@ const SmsPage = () => {
       console.log(`Message too short`);
       setErrorMessage('Message too short');
     } else {
-      const expressServerUrl = 'http://localhost:3000/send-sms'; // Update with your server URL
+      const expressServerUrl =
+        'https://serverless-project-1-3198-dev.twil.io/outbound-sms'; // Update with your server URL
       const queryParams = `?customerPhoneNumber=${customerPhoneNumber}&message=${encodeURIComponent(
         message
       )}`;
